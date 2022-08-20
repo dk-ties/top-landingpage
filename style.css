@@ -10,7 +10,7 @@ body {
   justify-content: center;
 }
 div {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 p {
   margin: 0;
@@ -26,6 +26,7 @@ p {
 .header {
   background-color: #1f2937;
   flex: 3 1 0px;
+  padding-bottom: 10px;
 }
 
 .info-picture {
@@ -54,6 +55,8 @@ p {
   font-size: 18px;
   color: #e5e7eb;
   justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 35px;
 }
 .logo {
   font-size: 24px;
@@ -81,6 +84,7 @@ p {
   font-weight: bolder;
   color: #f9faf8;
   flex: 1 1 0px;
+  margin-left: 25px;
 }
 .header-content {
   display: flex;
@@ -91,6 +95,9 @@ p {
   flex: 1 1 0px;
   display: flex;
   justify-content: space-around;
+
+  margin: 10px;
+  background-color: #97a8c01e;
 }
 .header-text-child {
   font-size: 12px;
@@ -99,4 +106,19 @@ p {
 #header-image-holder {
   align-self: center;
   padding: 10px;
+}
+
+.header-text-button button {
+  color: black;
+  background-color: blue;
+  padding: 10px;
+  margin: 0;
+  justify-content: center;
+}
+
+.header-text-button {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
 }
