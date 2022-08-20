@@ -12,7 +12,10 @@ body {
 div {
   border: 1px solid black;
 }
-
+p {
+  margin: 0;
+  padding: 0;
+}
 .overall-content {
   display: flex;
   height: 100vh;
@@ -55,10 +58,22 @@ div {
 .logo {
   font-size: 24px;
   color: #f9faf8;
+  align-self: center;
+  flex: 1 2 0px;
 }
-
+.header-link {
+  flex: 1 1 0px;
+  justify-content: space-between;
+}
 .ul-header-link {
   display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  margin: 0;
+}
+.ul-header-link li {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .header-text {
@@ -74,8 +89,14 @@ div {
 .header-image {
   width: 248px;
   flex: 1 1 0px;
+  display: flex;
+  justify-content: space-around;
 }
 .header-text-child {
   font-size: 12px;
   overflow-wrap: break-word;
+}
+#header-image-holder {
+  align-self: center;
+  padding: 10px;
 }
